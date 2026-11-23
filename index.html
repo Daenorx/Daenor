@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0b0f">
+    <title>DAENOR — Music for every mood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <div class="logo">DAENOR<span>.</span></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#music">Music</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="eyebrow">THE SOUND OF EMOTION</div>
+            <h1>Music for<br><span>every mood.</span></h1>
+            <p>Discover the sounds that move you.<br>Listen, feel and explore.</p>
+
+            <div class="search">
+                <input type="text" id="searchInput"
+                    placeholder="Search your favorite music...">
+                <button aria-label="Search">⌕</button>
+            </div>
+        </section>
+
+        <section id="music">
+            <div class="section-title">
+                <h2>Featured Music</h2>
+                <span>OUR COLLECTION</span>
+            </div>
+
+            <div class="tracks" id="trackList">
+
+                <article class="track">
+                    <div class="cover">♫</div>
+                    <h3>Arman Garshasbi - Bavar</h3>
+                    <p>Persian · Emotional</p>
+                    <div class="track-actions">
+                        <button class="play" data-src="Arman Garshasbi - Bavar.mp3">▶ Play</button>
+                        <a class="download" href="Arman Garshasbi - Bavar.mp3" download>Download</a>
+                    </div>
+                </article>
+
+                <article class="track">
+                    <div class="cover">♫</div>
+                    <h3>Ashvan - Mishe Bargardi Khoone</h3>
+                    <p>Persian · Pop</p>
+                    <div class="track-actions">
+                        <button class="play" data-src="Ashvan - Mishe Bargardi Khoone.mp3">▶ Play</button>
+                        <a class="download" href="Ashvan - Mishe Bargardi Khoone.mp3" download>Download</a>
+                    </div>
+                </article>
+
+                <article class="track">
+                    <div class="cover">♫</div>
+                    <h3>Chaartaar - Baran Toee</h3>
+                    <p>Persian · Alternative</p>
+                    <div class="track-actions">
+                        <button class="play" data-src="Chaartaar - Baran Toee.mp3">▶ Play</button>
+                        <a class="download" href="Chaartaar - Baran Toee.mp3" download>Download</a>
+                    </div>
+                </article>
+
+                <article class="track">
+                    <div class="cover">♫</div>
+                    <h3>Mohsen Chavoshi - Kojaei</h3>
+                    <p>Persian · Emotional</p>
+                    <div class="track-actions">
+                        <button class="play" data-src="Mohsen Chavoshi - Kojaei (320).mp3">▶ Play</button>
+                        <a class="download" href="Mohsen Chavoshi - Kojaei (320).mp3" download>Download</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="about">
+        <div class="logo">DAENOR<span>.</span></div>
+        <p>© 2026 DAENOR MUSIC. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
